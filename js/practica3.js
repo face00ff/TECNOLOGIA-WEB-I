@@ -31,7 +31,7 @@ function factorial (){
     factorial *= i;
      }
      
-    document.getElementById ('resp').value = factorial;
+    document.getElementById ('resp1').value = factorial;
      }
 
      function Fecha()
