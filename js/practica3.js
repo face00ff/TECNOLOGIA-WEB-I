@@ -34,8 +34,7 @@ function factorial (){
     document.getElementById ('resp1').value = factorial;
      }
 
-     function Fecha()
-     {
+ function Fecha(){
          var fecha = new Date(); //Fecha actual
          var mes = fecha.getMonth()+1; //obteniendo mes
          var dia = fecha.getDate(); //obteniendo dia
