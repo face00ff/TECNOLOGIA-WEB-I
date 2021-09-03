@@ -1,0 +1,28 @@
+<h2>Ejercicio 2</h2>
+<div class = 'contenedor'>
+    <form action="">
+        <input type="text"  id='Temper'>
+                            
+        <input type="text"  id='result' readonly>
+
+        <hr>
+
+        <input class = 'btn' type="button" value='PAR O IMPAR' onclick="vari()">
+        <script>
+
+            function vari(){
+            var num = prompt("Ingrese un numero");
+             var res = parImpar(num);
+            alert("el numero "+numero+" es "+ res);
+             function vari(numero) {
+            if(numero % 2 == 0) 
+            {
+                return "par";
+            }
+            else
+            {
+                return "impar";
+            }
+             }
+            }
+     </script>
